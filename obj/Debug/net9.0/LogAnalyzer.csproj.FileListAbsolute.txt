@@ -1,0 +1,14 @@
+C:\Users\Dell\Documents\Programs\git\teste\LogAnalyzer\bin\Debug\net9.0\LogAnalyzer.exe
+C:\Users\Dell\Documents\Programs\git\teste\LogAnalyzer\bin\Debug\net9.0\LogAnalyzer.deps.json
+C:\Users\Dell\Documents\Programs\git\teste\LogAnalyzer\bin\Debug\net9.0\LogAnalyzer.runtimeconfig.json
+C:\Users\Dell\Documents\Programs\git\teste\LogAnalyzer\bin\Debug\net9.0\LogAnalyzer.dll
+C:\Users\Dell\Documents\Programs\git\teste\LogAnalyzer\bin\Debug\net9.0\LogAnalyzer.pdb
+C:\Users\Dell\Documents\Programs\git\teste\LogAnalyzer\obj\Debug\net9.0\LogAnalyzer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dell\Documents\Programs\git\teste\LogAnalyzer\obj\Debug\net9.0\LogAnalyzer.AssemblyInfoInputs.cache
+C:\Users\Dell\Documents\Programs\git\teste\LogAnalyzer\obj\Debug\net9.0\LogAnalyzer.AssemblyInfo.cs
+C:\Users\Dell\Documents\Programs\git\teste\LogAnalyzer\obj\Debug\net9.0\LogAnalyzer.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Documents\Programs\git\teste\LogAnalyzer\obj\Debug\net9.0\LogAnalyzer.dll
+C:\Users\Dell\Documents\Programs\git\teste\LogAnalyzer\obj\Debug\net9.0\refint\LogAnalyzer.dll
+C:\Users\Dell\Documents\Programs\git\teste\LogAnalyzer\obj\Debug\net9.0\LogAnalyzer.pdb
+C:\Users\Dell\Documents\Programs\git\teste\LogAnalyzer\obj\Debug\net9.0\LogAnalyzer.genruntimeconfig.cache
+C:\Users\Dell\Documents\Programs\git\teste\LogAnalyzer\obj\Debug\net9.0\ref\LogAnalyzer.dll
