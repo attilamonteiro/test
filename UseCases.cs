@@ -9,6 +9,27 @@ namespace LogAnalyzer.UseCases
     {
         public List<LogBlock> ExtractBlocks(string[] logLines)
         {
+            var blockExtractor = new LogBlockExtractor();
+            return blockExtractor.ExtractBlocks(logLines);
+        }
+
+        public List<LogBlock> FindErrorBlocks(List<LogBlock> blocks)
+        {
+            var errorBlockFinder = new ErrorBlockFinder();
+            return errorBlockFinder.FindErrorBlocks(blocks);
+        }
+
+        public Dictionary<string, List<string>> GroupHashesByRealm(List<LogBlock> errorBlocks)
+        {
+            var hashGrouper = new HashGrouper();
+            return hashGrouper.GroupHashesByRealm(errorBlocks);
+        }
+    }
+
+    public class LogBlockExtractor
+    {
+        public List<LogBlock> ExtractBlocks(string[] logLines)
+        {
             List<LogBlock> blocks = new List<LogBlock>();
             LogBlock? currentBlock = null;
 
@@ -34,7 +55,10 @@ namespace LogAnalyzer.UseCases
             Console.WriteLine($"Total blocks extracted: {blocks.Count}");
             return blocks;
         }
+    }
 
+    public class ErrorBlockFinder
+    {
         public List<LogBlock> FindErrorBlocks(List<LogBlock> blocks)
         {
             List<LogBlock> errorBlocks = new List<LogBlock>();
@@ -50,7 +74,10 @@ namespace LogAnalyzer.UseCases
             Console.WriteLine($"Total error blocks found: {errorBlocks.Count}");
             return errorBlocks;
         }
+    }
 
+    public class HashGrouper
+    {
         public Dictionary<string, List<string>> GroupHashesByRealm(List<LogBlock> errorBlocks)
         {
             Dictionary<string, List<string>> groupedHashes = new Dictionary<string, List<string>>();
