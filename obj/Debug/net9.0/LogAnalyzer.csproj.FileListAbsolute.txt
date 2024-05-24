@@ -12,3 +12,4 @@ C:\Users\Dell\Documents\Programs\git\teste\LogAnalyzer\obj\Debug\net9.0\refint\L
 C:\Users\Dell\Documents\Programs\git\teste\LogAnalyzer\obj\Debug\net9.0\LogAnalyzer.pdb
 C:\Users\Dell\Documents\Programs\git\teste\LogAnalyzer\obj\Debug\net9.0\LogAnalyzer.genruntimeconfig.cache
 C:\Users\Dell\Documents\Programs\git\teste\LogAnalyzer\obj\Debug\net9.0\ref\LogAnalyzer.dll
+C:\Users\Dell\Documents\Programs\git\teste\LogAnalyzer\obj\Debug\net9.0\LogAnalyzer.sourcelink.json
