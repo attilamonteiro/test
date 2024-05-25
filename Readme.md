@@ -109,4 +109,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 - [Attila](https://github.com/attilamonteiro)
 
-Feel free to contribute to this project by opening issues or submitting pull requests. For any questions or feedback, please contact [Your Email].
+Feel free to contribute to this project by opening issues or submitting pull requests. For any questions or feedback, please contact [atmaload@gmail.com].
