@@ -25,22 +25,10 @@ namespace LogAnalyzer.UseCases
         */
         public List<LogBlock> FindErrorBlocks(List<LogBlock> blocks)
         {
-            // Initialize a list to store error blocks
-            List<LogBlock> errorBlocks = new List<LogBlock>();
-
-            // Iterate through each block in the provided list of LogBlocks
-            foreach (var block in blocks)
-            {
-                // Check if any line within the block contains the specified error message
-                if (block.Lines.Any(line => line.Contains("System.ArgumentException: Parameter 'P_ID_TIPO_RESIDENCIA' not found in the collection.")))
-                {
-                    // If the error message is found, add the block to the list of error blocks
-                    errorBlocks.Add(block);
-                }
-            }
-
-            // Return the list of error blocks
-            return errorBlocks;
+            // Use LINQ to filter blocks that contain the specified error message
+            return blocks
+                .Where(block => block.Lines.Any(line => line.Contains("System.ArgumentException: Parameter 'P_ID_TIPO_RESIDENCIA' not found in the collection.")))
+                .ToList();
         }
     }
 }

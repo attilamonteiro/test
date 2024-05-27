@@ -10,10 +10,6 @@ using LogAnalyzer.UseCases; // Importing the namespaces for LogBlockExtractor, E
 
 namespace LogAnalyzer.UseCases
 {
-    /*
-        Class: LogProcessor
-        Description: This class provides high-level functionality to process log data.
-    */
     public class LogProcessor
     {
         /*

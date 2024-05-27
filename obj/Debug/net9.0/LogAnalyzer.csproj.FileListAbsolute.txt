@@ -1,8 +1,8 @@
 C:\Users\Dell\Documents\Programs\git\teste\LogAnalyzer\bin\Debug\net9.0\LogAnalyzer.exe
-C:\Users\Dell\Documents\Programs\git\teste\LogAnalyzer\bin\Debug\net9.0\LogAnalyzer.deps.json
-C:\Users\Dell\Documents\Programs\git\teste\LogAnalyzer\bin\Debug\net9.0\LogAnalyzer.runtimeconfig.json
 C:\Users\Dell\Documents\Programs\git\teste\LogAnalyzer\bin\Debug\net9.0\LogAnalyzer.dll
-C:\Users\Dell\Documents\Programs\git\teste\LogAnalyzer\bin\Debug\net9.0\LogAnalyzer.pdb
+C:\Users\Dell\Documents\Programs\git\teste\LogAnalyzer\bin\Debug\net9.0\xunit.runner.visualstudio.testadapter.dll
+C:\Users\Dell\Documents\Programs\git\teste\LogAnalyzer\bin\Debug\net9.0\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\Dell\Documents\Programs\git\teste\LogAnalyzer\bin\Debug\net9.0\xunit.runner.utility.netcoreapp10.dll
 C:\Users\Dell\Documents\Programs\git\teste\LogAnalyzer\bin\Debug\net9.0\Newtonsoft.Json.dll
 C:\Users\Dell\Documents\Programs\git\teste\LogAnalyzer\bin\Debug\net9.0\xunit.abstractions.dll
 C:\Users\Dell\Documents\Programs\git\teste\LogAnalyzer\bin\Debug\net9.0\xunit.assert.dll
@@ -18,5 +18,8 @@ C:\Users\Dell\Documents\Programs\git\teste\LogAnalyzer\obj\Debug\net9.0\LogAnaly
 C:\Users\Dell\Documents\Programs\git\teste\LogAnalyzer\obj\Debug\net9.0\LogAnalyzer.dll
 C:\Users\Dell\Documents\Programs\git\teste\LogAnalyzer\obj\Debug\net9.0\refint\LogAnalyzer.dll
 C:\Users\Dell\Documents\Programs\git\teste\LogAnalyzer\obj\Debug\net9.0\LogAnalyzer.pdb
+C:\Users\Dell\Documents\Programs\git\teste\LogAnalyzer\bin\Debug\net9.0\LogAnalyzer.deps.json
+C:\Users\Dell\Documents\Programs\git\teste\LogAnalyzer\bin\Debug\net9.0\LogAnalyzer.runtimeconfig.json
+C:\Users\Dell\Documents\Programs\git\teste\LogAnalyzer\bin\Debug\net9.0\LogAnalyzer.pdb
 C:\Users\Dell\Documents\Programs\git\teste\LogAnalyzer\obj\Debug\net9.0\LogAnalyzer.genruntimeconfig.cache
 C:\Users\Dell\Documents\Programs\git\teste\LogAnalyzer\obj\Debug\net9.0\ref\LogAnalyzer.dll

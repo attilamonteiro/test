@@ -43,16 +43,17 @@ namespace LogAnalyzer.LogIO
             using (var writer = new StreamWriter(filePath))
             {
                 // Iterate through each realm in the dictionary
-                foreach (var realm in groupedHashes.Keys)
+                foreach (var kvp in groupedHashes)
                 {
                     // Write the realm to the file
-                    writer.WriteLine(realm);
-                    // Iterate through each hash associated with the current realm
-                    foreach (var hash in groupedHashes[realm])
+                    writer.WriteLine(kvp.Key);
+
+                    // Write each hash associated with the current realm
+                    foreach (var hash in kvp.Value)
                     {
-                        // Write the hash to the file, enclosed in double quotes
-                        writer.WriteLine($"\"{hash}\",");
+                        writer.WriteLine($"\"{hash}\"");
                     }
+
                     // Write an empty line to separate realms
                     writer.WriteLine();
                 }

@@ -24,32 +24,20 @@ namespace LogAnalyzer.UseCases
         */
         public List<LogBlock> ExtractBlocks(string[] logLines)
         {
-            // Initialize a list to store extracted log blocks
-            List<LogBlock> blocks = new List<LogBlock>();
-            // Initialize a variable to track the current log block being processed
+            var blocks = new List<LogBlock>();
             LogBlock? currentBlock = null;
 
-            // Iterate through each log line in the provided array
             foreach (var line in logLines)
             {
-                // Check if the line marks the start of a new log block
                 if (line.Contains("Iniciando interpretação da mensagem..."))
                 {
-                    // Create a new log block and set it as the current block
                     currentBlock = new LogBlock();
-                    // Add the new log block to the list of blocks
                     blocks.Add(currentBlock);
                 }
 
-                // Check if there is a current log block being processed
-                if (currentBlock != null)
-                {
-                    // Add the current line to the lines of the current log block
-                    currentBlock.Lines.Add(line);
-                }
+                currentBlock?.Lines.Add(line);
             }
 
-            // Return the list of extracted log blocks
             return blocks;
         }
     }
